@@ -1,0 +1,32 @@
+</td>  
+</tr>
+<tr>
+  <th scope="row">Intake of hostel(boy's)</th>
+  <td>
+  <?php
+$sqlautogpan=mysqli_query($con,"select * from `institute_details` where `regional_office`='$uregional_office'");
+$rowhostb=mysqli_fetch_array($sqlautogpan);//
+echo $rowhostb['boys_hostel_intake'];
+?>
+  </td>  
+</tr>
+<tr>
+  <th scope="row">Intake of hostel(girls's)</th>
+  <td>
+  <?php
+$sqlautogpan=mysqli_query($con,"select * from `institute_details` where `regional_office`='$uregional_office'");
+$rowhostb=mysqli_fetch_array($sqlautogpan);//
+echo $rowhostb['girls_hostel_intake'];
+?>
+  </td>  
+</tr>
+
+
+<tr>
+      <th scope="row">Intake of hostel(boy's)</th>
+      <td>25</td>  
+    </tr>
+    <tr>
+      <th scope="row">Intake of hostel(girls's)</th>
+      <td>25</td>  
+    </tr>
