@@ -1,0 +1,1 @@
+This is a web application for managing and monitoring student attendance online.The app is very convenient for the faculty to visualize all students's attendance data and t also provide a feature to send email to students's having less attendance.
